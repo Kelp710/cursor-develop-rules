@@ -1,5 +1,5 @@
 ---
-description: **Unit Test Implementation (ユニットテストの実装)**      - 参照ファイル: `.rules/unit_tests/**.md`      - 作業内容: 各機能に対するユニットテストの設計と実装。      - 終了時: ユーザーに「ユニットテストの実装フェーズを完了しました。次のコーディングフェーズに進んでもよろしいですか？」と確認する。
+description: **Unit Test Implementation (ユニットテストの実装)**      - 参照ファイル: `.cursor/rules/unit_tests/**.md`      - 作業内容: 各機能に対するユニットテストの設計と実装。      - 終了時: ユーザーに「ユニットテストの実装フェーズを完了しました。次のコーディングフェーズに進んでもよろしいですか？」と確認する。
 globs: 
 alwaysApply: false
 ---
