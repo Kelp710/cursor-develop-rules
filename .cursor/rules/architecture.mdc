@@ -1,0 +1,14 @@
+---
+description: **Design (設計)**      - 参照ファイル: `.rules/architecture/**.md`      - 作業内容: システム全体の設計、要件定義、アーキテクチャの検討など。      - 終了時: ユーザーに「設計フェーズを完了しました。次のユニットテストの実装フェーズに進んでもよろしいですか？」と確認する。
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- You can @ files here
+[command.md](mdc:.cursor/rules/architecture/command.md)
+[document_list.md](mdc:.cursor/rules/architecture/document_list.md)
+[flow.md](mdc:.cursor/rules/architecture/flow.md)
+[requirements_definition.md](mdc:.cursor/rules/architecture/requirements_definition.md)
+- You can use markdown but dont have to

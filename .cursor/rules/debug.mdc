@@ -1,0 +1,13 @@
+---
+description: **Debug (テスト実行・修正)**      - 参照ファイル: `.rules/debug/**.md`      - 作業内容: 実装したコードのテスト実行、バグ修正、コードの検証。      - 終了時: ユーザーに「テスト実行・修正フェーズを完了しました。次のGitHubのPR作成フェーズに進んでもよろしいですか？」と確認する。
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- You can @ files here
+[command.md](mdc:.cursor/rules/debug/command.md)
+[debug.md](mdc:.cursor/rules/debug/debug.md)
+[flow.md](mdc:.cursor/rules/debug/flow.md)
+- You can use markdown but dont have to

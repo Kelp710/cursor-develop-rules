@@ -1,0 +1,13 @@
+---
+description: **Coding (コーディング)**      - 参照ファイル: `.rules/implementation/**.md`      - 作業内容: 設計およびテスト内容に基づいた実際のコーディング作業。      - 終了時: ユーザーに「コーディングフェーズを完了しました。次のテスト実行・修正フェーズに進んでもよろしいですか？」と確認する。
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- You can @ files here
+[command.md](mdc:.cursor/rules/implementation/command.md)
+[comment.md](mdc:.cursor/rules/implementation/comment.md)
+[flow.md](mdc:.cursor/rules/implementation/flow.md)
+- You can use markdown but dont have to
