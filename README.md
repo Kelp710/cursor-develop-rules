@@ -39,9 +39,3 @@ User Rulesに下記のプロンプトを追加
 - ユーザーからの許可が明確になった場合のみ、次フェーズ（カスタムモードで設定されている）に移行する。
 
 以上の手順に従い、作業を開始してください。
-
-
-- You can @ files here
-@architecture.mdc
-- You can use markdown but dont have to
-```
