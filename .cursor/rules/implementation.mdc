@@ -1,13 +1,10 @@
 ---
-description: **Coding (コーディング)**      - 参照ファイル: `.cursor/rules/implementation/**.md`      - 作業内容: 設計およびテスト内容に基づいた実際のコーディング作業。      - 終了時: ユーザーに「コーディングフェーズを完了しました。次のテスト実行・修正フェーズに進んでもよろしいですか？」と確認する。
+description: **Coding (コーディング)**   - 作業内容: 設計およびテスト内容に基づいた実際のコーディング作業。
 globs: 
 alwaysApply: false
 ---
 
 # Your rule content
-# コマンド実行方針
-
-- `cd`や`mkdir`、`touch`コマンドを使用する際は絶対パスで指定してください。
 
 ### コメントについて
 
@@ -19,18 +16,19 @@ alwaysApply: false
   - パッと見て分かりにくいトレードオフ、アルゴリズムの工夫、またはパフォーマンス上のハックが使われているとき
   - `TODO` や `FIXME` などの重要な保留事項があるとき（ただし、必要性が明確で、行動可能な情報を含めること）
 
-# 実装フェーズのフロー
+## 実装フェーズのフロー
 
-## 1. ドキュメントの確認
+### 1. ドキュメントの確認
 - `comment.md`
 - `command.md`
 
-## 2. コード実装
+### 2. コード実装
 - `docs/architecture/architecture.md`と`docs/architecture/task`と作成されたユニットテストを参考にテストが通るよう実装してください。
 
 ---
 
 以上のフローが完了したら次のフェーズに移動します。
 
-- You can @ files here
-- You can use markdown but dont have to
+# コマンド実行方針
+
+- `cd`や`mkdir`、`touch`コマンドを使用する際は絶対パスで指定してください。

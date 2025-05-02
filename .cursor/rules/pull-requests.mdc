@@ -1,21 +1,18 @@
 ---
-description: **Pull Request Creation (GitHubのPR作成)**      - 参照ファイル: `.cursor/rules/pull_requests/**.md`      - 作業内容: 完成したコードのGitHub上でのPR作成、コードレビューの依頼。      - 終了時: フロー全体の完了報告を行い、必要に応じてフィードバックを受ける。
+description: **Pull Request Creation (GitHubのPR作成)**   - 作業内容: 完成したコードのGitHub上でのPR作成、コードレビューの依頼。
 globs: 
 alwaysApply: false
 ---
 
 # Your rule content
-# コマンド実行方針
 
-- `cd`や`mkdir`、`touch`コマンドを使用する際は絶対パスで指定してください。
+## Git Commit, Pull Request 作成のためのフロー
 
-# Git Commit, Pull Request 作成のためのフロー
-
-## Git-Flow
+### Git-Flow
 - Git Flow の運用ルールを厳守してください。
 - ブランチ運用、リリース、ホットフィックスなどのフローに従い、適切なブランチ名を使用してください。
 
-## Gitコミットメッセージ作成ルール
+### Gitコミットメッセージ作成ルール
 
 1. **Conventional Commits 形式を使用する**  
    - コミットメッセージは `type(scope): Subject` の形式で記述してください。  
@@ -37,7 +34,7 @@ alwaysApply: false
    - 差分の内容とコミットメッセージが矛盾しないように注意してください。
    - 不要な差分が入らないよう適宜`.gitignore`への追加を検討してください。
 
-## Pull Request 作成手順
+### Pull Request 作成手順
 
 1. **修正内容の確認**  
    - 修正内容が全体として適切かどうか、また変更の趣旨を正確に把握してください。
@@ -51,7 +48,7 @@ alwaysApply: false
 4. **PR テンプレートの利用**  
    - 以下のテンプレートに沿って、Pull Request のタイトルおよび本文を作成してください。
 
-## Pull Request Template
+### Pull Request Template
 
 - **概要**  
   - 変更の全体像を簡潔にまとめる
@@ -76,36 +73,38 @@ alwaysApply: false
 このフローおよびテンプレートに従い、Git のコミットおよび Pull Request 作成を進めてください。ユーザーが作業内容を確認しながら、各ステップを順次進めるように設計されています。
 
 
-# PR作成フェーズのフロー
+## PR作成フェーズのフロー
 
-## 1. ドキュメントの確認
+### 1. ドキュメントの確認
 - `git.md`
 - `command.md`
 
-## 2. 既存の設計ドキュメントの更新
+### 2. 既存の設計ドキュメントの更新
 - 変更した内容やタスク完了を`docs/architecture`配下の設計ファイルとタスクファイルに反映させてください。
 
-## 3. Githubリポジトリの存在を確認
+### 3. Githubリポジトリの存在を確認
 - ローカルにGithubリポジトリのoriginが登録されているか確認します。
 - 存在しなければ、`gh repo create`によってリポジトリを作成し、`git init`を実行してください。
 - リポジトリを作成した場合は、mainに変更をプッシュして以降のフローをスキップします。
 
-## 4. ブランチの作成
+### 4. ブランチの作成
 - 現在のブランチがdevelopやmainなら最新状態にしてブランチを切ってください。
 - それ以外のブランチであれば、そのブランチを使うか別のブランチを切るか開発者に質問してください。
 
-## 5. コミット
+### 5. コミット
 - 変更をステージしてコミットしてください。
 
-## 6. プッシュ
+### 6. プッシュ
 - コミット内容をリモートにプッシュしてください。
 
-## 7. PR作成
+### 7. PR作成
 - PRを作成してください。
 
 ---
 
 以上のフローが完了したら次のフェーズに移動します。
 
-- You can @ files here
-- You can use markdown but dont have to
+# コマンド実行方針
+
+- `cd`や`mkdir`、`touch`コマンドを使用する際は絶対パスで指定してください。
+
