@@ -43,9 +43,4 @@ alwaysApply: true
 
 
 - You can @ files here
-[architecture.mdc](mdc:.cursor/rules/architecture.mdc)
-[debug.mdc](mdc:.cursor/rules/debug.mdc)
-[implementation.mdc](mdc:.cursor/rules/implementation.mdc)
-[pull-requests.mdc](mdc:.cursor/rules/pull-requests.mdc)
-[unit-tests.mdc](mdc:.cursor/rules/unit-tests.mdc)
 - You can use markdown but dont have to
